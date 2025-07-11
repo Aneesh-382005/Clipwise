@@ -1,7 +1,7 @@
 from youtube_transcript_api import YouTubeTranscriptApi
 import re
 
-class GETTranscript:
+class YouTubeTranscriptAPIService:
     def __init__(self, url):
         self.url = url
         self.videoID = self.parseURL(url)
