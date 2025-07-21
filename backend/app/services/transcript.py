@@ -1,13 +1,14 @@
 from youtube_transcript_api import YouTubeTranscriptApi
 import re
 
-class YouTubeTranscriptAPIService:
+class getYouTubeTranscript:
     def __init__(self, url):
         self.url = url
         self.videoID = self.parseURL(url)
         if not self.videoID:
             raise ValueError("Invalid YouTube URL")
     
+    @staticmethod
     def parseURL(url):
         pattern = (
             r'(?:https?:\/\/)?(?:www\.)?'

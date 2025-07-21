@@ -1,6 +1,7 @@
 langchain_experimental==0.3.4
-langchain_openai==0.3.27
+langchain_openai==0.3.28
 numpy==2.3.1
+openai==1.95.1
 pytubefix==9.3.0
 scikit_learn==1.7.0
 youtube_transcript_api==1.1.1
