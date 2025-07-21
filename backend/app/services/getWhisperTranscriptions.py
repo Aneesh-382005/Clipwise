@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = Groq(api_key = os.getenv("GROQ_API_KEY"))
+client = Groq()
 
 filename = os.path.dirname(__file__) + "/../utilities/downloads/But what is a neural network  Deep learning chapter 1.m4a"
 print(f"Transcribing file: {filename}")
