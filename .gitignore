@@ -1,3 +1,5 @@
 commands.txt
 downloads
 .env
+*.pyc
+__pycache__
